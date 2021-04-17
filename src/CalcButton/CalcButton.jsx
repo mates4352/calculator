@@ -4,11 +4,10 @@ import s from "./CalcButton.module.scss";
 import d  from "../button/Button.module.scss"
 
 
-
-
 export default function CalcButton() {
+
 	function click() {
-		const value = document.querySelectorAll(`button`)
+		console.log("hello");
 	}
 	
 	return (
